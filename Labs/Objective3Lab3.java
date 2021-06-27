@@ -4,8 +4,9 @@ public class Objective3Lab3 {
     first = 1 + (int) (Math.random() * 6);
     second = 1 + (int) (Math.random() * 6);
     third = 1 + (int) (Math.random() * 6);
-    System.out.println(first);
-    System.out.println(second);
-    System.out.println(third);
+    int sum = first + second + third;
+    System.out.println(first + " + " + second + " + " + third + " = " + sum);
+
   }
 }
+
