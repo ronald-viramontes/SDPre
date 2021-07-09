@@ -14,12 +14,12 @@ public class Objective7Lab5 {
       if (sel == 1) {
         System.out.println("1");
         System.out.println("Hello World");
-          break; }
+          continue; }
       if (sel == 2) {
         System.out.println("2");
         System.out.println("Apple, Banana, Coconut");
-          break; }
-      if (sel == 3) { 
+          continue; }
+      if (sel == 3) {
         System.out.println("3");
         System.out.println("Goodbye");
          break; }
